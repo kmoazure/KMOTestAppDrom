@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@android:color/transparent"/>
+
+    <padding android:right="@dimen/login_et_padding_horizontal"
+        android:left="@dimen/login_et_padding_horizontal"/>
+
+    <corners android:radius="@dimen/login_et_radius"/>
+
+    <stroke android:width="@dimen/login_et_border_width"
+        android:color="@color/colorPrimary"/>
+
+</shape>

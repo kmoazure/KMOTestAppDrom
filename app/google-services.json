@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "877611561478",
+    "firebase_url": "https://drom-4212a.firebaseio.com",
+    "project_id": "drom-4212a",
+    "storage_bucket": "drom-4212a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877611561478:android:829e256f04a0e558",
+        "android_client_info": {
+          "package_name": "com.kmo.drom.kmoappdrom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877611561478-kr4cbgeoiq7nut3moo36eb5j3flpn972.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ4GY4q6MiNo1ZnpTdIVZTcZOQK2K8M4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

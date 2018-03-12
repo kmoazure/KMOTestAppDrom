@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LoginETStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_height">@dimen/login_et_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/login_et_margin_horizontal</item>
+        <item name="android:layout_marginEnd">@dimen/login_et_margin_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/login_et_margin_bottom</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/login_et_textsize</item>
+        <item name="android:paddingStart">@dimen/login_et_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/login_et_padding_horizontal</item>
+    </style>
+
+    <style name="LoginBTStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/login_bt_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/login_bt_textsize</item>
+        <item name="android:layout_marginStart">@dimen/login_et_margin_horizontal</item>
+        <item name="android:layout_marginEnd">@dimen/login_et_margin_horizontal</item>
+    </style>
+
+</resources>

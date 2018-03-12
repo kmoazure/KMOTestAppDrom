@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test Drom app KMO</string>
+    <string name="login">Log In</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="sign_in">Sign In</string>
+    <string name="log_out">Log out</string>
+    <string name="hint_search_view">Search</string>
+    <string name="email_hint">E-mail/Username</string>
+    <string name="password_hint">Password</string>
+
+    <string name="login_with_password">Login with Password</string>
+    <string name="login_anonymously">Login Anonymously</string>
+    <string name="repos_is_empty">For your request, repos were not found.</string>
+    <string name="search_type">Global search</string>
+</resources>

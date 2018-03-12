@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/client_id"
+            android:layout_width="match_parent"
+            android:background="@drawable/background_login_et"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_hint"
+            style="@style/LoginETStyle"/>
+
+        <EditText
+            android:id="@+id/client_secret"
+            android:layout_width="match_parent"
+            android:background="@drawable/background_login_et"
+            android:inputType="textPassword"
+            android:hint="@string/password_hint"
+            style="@style/LoginETStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                style="@style/LoginBTStyle"
+                android:background="@drawable/background_login_bt"
+                android:text="@string/login"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/anon"
+                android:layout_width="match_parent"
+                style="@style/LoginBTStyle"
+                android:background="@drawable/background_anonymous_bt"
+                android:text="@string/anonymous"
+                android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>

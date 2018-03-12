@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_name_size">14dp</dimen>
+
+    <dimen name="login_et_height">48dp</dimen>
+    <dimen name="login_et_margin_horizontal">16dp</dimen>
+    <dimen name="login_et_margin_bottom">24dp</dimen>
+    <dimen name="login_et_textsize">14dp</dimen>
+    <dimen name="login_et_padding_horizontal">8dp</dimen>
+    <dimen name="login_et_radius">8dp</dimen>
+    <dimen name="login_et_border_width">1dp</dimen>
+
+    <dimen name="login_bt_height">52dp</dimen>
+    <dimen name="login_bt_textsize">14dp</dimen>
+    <dimen name="login_bt_radius">5dp</dimen>
+    <dimen name="login_bt_border_width">1dp</dimen>
+
+    <dimen name="repos_divider_rc_height">4dp</dimen>
+
+    <dimen name="title_repo_text_size">14dp</dimen>
+    <dimen name="title_repo_margin_top">16dp</dimen>
+    <dimen name="title_repo_margin_end">16dp</dimen>
+    <dimen name="title_repo_margin_bottom">4dp</dimen>
+
+    <dimen name="avatar_owner_margin">16dp</dimen>
+    <dimen name="avatar_owner_size">50dp</dimen>
+    <dimen name="avatar_owner_border_width">2dp</dimen>
+
+    <dimen name="description_repo_margin_end">16dp</dimen>
+    <dimen name="description_repo_text_size">12dp</dimen>
+
+    <dimen name="search_layout_height">40dp</dimen>
+
+    <dimen name="default_horizontal_padding_toolbar">8dp</dimen>
+
+    <dimen name="switcher_type_search_text_size">10dp</dimen>
+</resources>

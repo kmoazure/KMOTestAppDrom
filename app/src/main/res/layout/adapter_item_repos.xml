@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar_owner"
+        android:layout_width="@dimen/avatar_owner_size"
+        android:layout_height="@dimen/avatar_owner_size"
+        android:layout_margin="@dimen/avatar_owner_margin"
+        app:civ_border_width="@dimen/avatar_owner_border_width"
+        app:civ_border_color="@color/colorBlack"
+        app:civ_border_overlay="true"/>
+
+    <TextView
+        android:id="@+id/title_repo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_repo_text_size"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/title_repo_margin_top"
+        android:layout_marginEnd="@dimen/title_repo_margin_end"
+        android:layout_marginBottom="@dimen/title_repo_margin_bottom"
+        android:layout_toEndOf="@id/avatar_owner"/>
+
+    <TextView
+        android:id="@+id/description_repo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_repo_text_size"
+        android:textColor="@color/colorBlack"
+        android:alpha="0.5"
+        android:layout_marginEnd="@dimen/description_repo_margin_end"
+        android:layout_toEndOf="@id/avatar_owner"
+        android:layout_below="@id/title_repo"/>
+
+</RelativeLayout>
