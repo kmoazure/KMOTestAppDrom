@@ -176,7 +176,7 @@ public class RepoFragment extends MvpAppCompatFragment implements RepoView, Back
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
-                if (!refresh.isRefreshing() & reposAdapter.getItemCount() > COUNT_ITEMS_PER_PAGE - COUNT_ITEMS_FOR_LOAD & ((LinearLayoutManager) reposList.getLayoutManager()).findLastVisibleItemPosition() + COUNT_ITEMS_FOR_LOAD > reposAdapter.getItemCount()) {
+                if (!refresh.isRefreshing() & search.getQuery().toString().isEmpty() /*reposAdapter.getItemCount() > COUNT_ITEMS_PER_PAGE - COUNT_ITEMS_FOR_LOAD*/ & ((LinearLayoutManager) reposList.getLayoutManager()).findLastVisibleItemPosition() + COUNT_ITEMS_FOR_LOAD > reposAdapter.getItemCount()) {
                     refresh.setRefreshing(true);
                     presenter.getData(String.valueOf(repos.get(repos.size() - 1).getId() + 1));
                 }
